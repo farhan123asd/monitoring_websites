@@ -55,7 +55,7 @@ def log_result(result: dict):
 
 def alert(message: str):
     """
-    This is a stand-in for a real alert (Slack, PagerDuty, email).
+    This is a stand-in for a real alert (Slack, PagerDuty, email, SMS).
     In production, this function is where you'd call a webhook instead of printing.
     """
     print(f"🚨 ALERT: {message}")
