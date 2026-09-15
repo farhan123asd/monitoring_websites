@@ -1,8 +1,7 @@
 # Uptime Monitor
 
 A small script that checks a list of websites on a schedule, times each
-response, and prints an alert when a site is down or too slow. Built to
-practice the core idea behind SRE monitoring: define a signal, define a
+response, and prints an alert when a site is down or too slow. Define a signal, define a
 threshold, and get notified when reality crosses it.
 
 ## Run it
